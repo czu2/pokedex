@@ -37,7 +37,7 @@ $(document).ready(function(){
                             btn_card_body.dataset.target = '#modalInfo';
                             btn_card_body.dataset.toggle = 'modal';
                             btn_card_body.dataset.url = pokemon.url;
-                            btn_card_body.innerHTML = 'Ver más...';
+                            btn_card_body.innerHTML = '¡Quiero saber más de este pokémon!';
                             div_card_body.append(btn_card_body);
 
                         div_card_pkm.append(div_card_body);
@@ -83,7 +83,7 @@ $(document).ready(function(){
                 <p>Tipo: ${kind}</p>
                 <p>Generacion: ${addGenerations(data.types)}</p>
                 <p>Habilidad: ${abilities}</p>
-                <p>Movimientos: ${moves}</p>
+                <p>Top 5 Movimientos: <br> ${moves}</p>
                 </div>`); 
                 
             }
