@@ -1,0 +1,8 @@
+{
+  "name": "pokedex",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0"
+  }
+}
